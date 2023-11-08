@@ -423,3 +423,12 @@ a:hover{
   display: none;}
 
 }
+@media screen and (max-width:600px) {
+  .contact-detail{
+    padding: 0!important;
+  }
+  .contact-form,.contact-map{
+    padding: 15px!important;
+  }
+
+}
