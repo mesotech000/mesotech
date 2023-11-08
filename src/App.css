@@ -1,0 +1,425 @@
+:root {
+  --primary-color: #ffdadb;
+ --secondary-color: #2f2525;
+ --tertiary-color: #fff;
+ --bg-color: #f5efef;
+}
+body {
+  background-color:  var(--bg-color)!important;
+  font-size: 20px;
+
+  font-family: 'Proxima Nova Condensed', sans-serif;
+  
+}
+.text-primary{
+  color: var(--secondary-color)!important;
+}
+.mesoButton{
+  background-color:  var(--bg-color)!important; 
+  border: 2px solid var(--secondary-color);
+  color: var(--secondary-color)!important;
+  font-weight: 700;
+}
+.mesoProjects .text-secondary,.mesoProjects .text-white,.mesoBlog .text-white,.mesoBlog .text-secondary{
+  color: var(--secondary-color)!important;
+}
+.mesoBlog .bg-primary,.mesoBlog .btn-secondary{
+  background-color: var(--bg-color)!important;
+}
+.blog-item .blog-btn {
+    z-index: 2;
+}
+
+.blog-btn .blog-btn-icon {
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.blog-btn-icon .blog-icon-2 {
+    display: flex;
+    position: absolute;
+    top: 6px;
+    left: -140px;
+    
+}
+
+
+.blog-btn-icon:hover .blog-icon-2 {
+    transition: 1s;
+    left: 5px;
+    top: 6px;
+    padding-bottom: 5px;
+}
+.blog-icon-1 {
+    position: relative;
+    top: -4px;
+}
+.blog-btn-icon:hover .blog-icon-1 {
+    top: 0;
+    right: -140px;
+    transition: 1s;
+}
+
+.fab{
+  color: var(--secondary-color)!important;
+}
+.fas{
+  color: var(--primary-color)!important;
+}
+.icons{
+  display: flex;
+  gap: 5px!important;
+}
+*,
+*::before,
+*::after {
+  box-sizing:border-box
+}
+@keyframes tilt-shaking {
+  0% { transform: rotate(0deg); 
+  }
+  25% { transform: rotate(5deg); }
+  50% { transform: rotate(0eg); 
+  }
+  75% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg);
+   }
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(-110%);
+  }
+  100% {
+    transform: translateX(110%);
+  }}
+  .marquee {
+   
+ 
+    white-space: nowrap;
+    overflow: hidden;
+  
+  }
+
+  .marquee small {
+    color: var(--primary-color)!important;
+    display: inline-block;
+    animation: marquee 5s linear infinite;
+  }
+  .phonenimate{
+    animation: tilt-shaking 0.15s  infinite;
+  }
+ 
+.mesoTopbar{
+  background-color: #000!important;
+}
+.mesoNavbar{
+  background-color: var(--secondary-color)!important;
+}
+.mesoNavbar .nav-link{
+  color: var(--tertiary-color)!important;
+}
+.mesoNavbar .nav-link:hover{
+  color: var(--primary-color)!important;
+}
+a:hover{
+  text-decoration: none!important;
+  background-color: transparent!important;
+}
+.mesoNavbar .mesoColour{
+  color: var(--primary-color)!important;
+}
+.mesoRating .text-white{
+  color: var(--secondary-color)!important;
+}
+.mesoRating .text-primary{
+  -webkit-text-stroke: 1px var(--secondary-color);
+  color: var(--bg-color)!important;
+}
+
+.title--xxl {
+  color: var(--secondary-color)!important;
+  font-weight: 900;
+  font-size: clamp(2.6rem,3.6vw,5.6rem);
+  line-height: clamp(1.6rem,1.9ch,7.6rem);
+}
+.text--size-s {
+  
+  color: #000!important;
+  font-size: clamp(1.3rem,1.4vw,2.2rem);
+  line-height: clamp(0.8rem,2.6ch,3.4rem);
+}
+.btn--xl {
+  color: var(--tertiary-color)!important;
+  background-color: var(--secondary-color)!important;
+
+  border-radius: 3.5rem;
+  padding: 1rem 2rem;
+ 
+}
+.mesoIcon{
+  color: var(--secondary-color)!important;
+}
+.project-img {
+  position: relative;
+  padding: 15px;
+}
+
+.project-img::before {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  top: 0;
+  left: 0;
+  background: var(--secondary-color);
+  border-radius: 10px;
+  opacity: 1;
+  z-index: -1;
+  transition: .5s;
+}
+
+.project-img::after {
+  content: "";
+ 
+  width: 150px;
+  height: 100px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: var(--primary-color);
+  border-radius: 10px;
+  opacity: 1;
+  z-index: -1;
+  transition: .5s;
+}
+.project-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+
+.project-content a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px 25px;
+  background: var(--primary-color)!important;
+  color: #2f2525;
+  border-radius: 10px;
+}
+::before, ::after {
+  box-sizing: border-box;
+}
+.project-item:hover .project-content {
+  opacity: 1;
+  transition: .5s;
+}
+
+.project-item:hover .project-img::before,
+.project-item:hover .project-img::after {
+  opacity: 0;
+}
+.team-content::before {
+  height: 200px;
+  display: block;
+  content: "";
+  position: relative;
+  top: -101px;
+  background: var(--secondary-color);
+  clip-path: polygon(50% 50%, 100% 50%, 50% 100%, 0% 50%);
+  padding: 60px;
+  opacity: 1;
+}
+.team-img-icon {
+  position: relative;
+  margin-top: -200px;
+  padding: 30px;
+    padding-bottom: 30px;
+  padding-bottom: 0;
+}
+.team-img {
+  border: 15px solid var(--bg-color);
+}
+.team-item {
+  border: 1px solid var(--secondary-color)!important;
+  border-top: 30px solid var(--secondary-color)!important;
+
+  background-color: #fff;
+}
+
+.teamCard{
+  width: 400px!important;
+}
+.teamContainer{
+  position: relative!important;
+}
+.teamContainer .owl-nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+}
+.teamContainer .fas{
+  color: var(--bg-color)!important;
+}
+.teamContainer .owl-nav .owl-prev, .teamContainer .owl-nav .owl-next {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 15px;
+  background: var(--secondary-color);
+  color: var(--bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .5s;
+}
+.testimonial .slick-dots li button::before {
+ font-size: 14px;
+ color: var(--secondary-color)!important;
+}
+.testimonial-item{
+
+  border-color: #000!important;
+  background-color: var(--tertiary-color)!important;
+}
+.border-top{
+  border-top: 1px solid #000!important;
+}
+.testimonial-item .text-secondary{
+  color: var(--secondary-color)!important;
+}
+.testimonial .slick-dots .slick-active  button::before {
+  font-weight: 900;
+  font-size: 17px!important;
+  content: '♥'!important;
+ 
+}
+.btn-square {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+}
+
+.contact-detail .bg-secondary{
+  background-color: var(--secondary-color)!important;
+}
+.contact-detail .text-white{
+  color: var(--primary-color)!important;
+}
+.contact-detail .blc{
+  border: 2px solid #000;
+}
+.contact-detail .contact-map,.contact-detail .contact-form{
+  border: 2px solid #000;
+  background-color: var(--tertiary-color);
+}
+.contact-detail .border-1{
+  border: 1px solid #000!important;
+}
+.contact-detail .bg-primary{
+  background-color: var(--tertiary-color)!important;
+  border: 2px solid #000;
+  color: #000!important;
+}
+.contact-detail .bg-primary:hover{
+  background-color: var(--secondary-color)!important;
+  color: var(--primary-color)!important;
+}
+.text-secondary {
+  color: var(--primary-color)!important;
+}
+.footer a{
+  text-decoration: none!important;
+}
+.footer{
+  background-color: #000!important;
+}
+.footer .border-primary{
+  border-bottom: 1px solid var(--primary-color)!important;
+}
+
+.footer .btn-square {
+    width: 30px;
+    height: 30px;
+  }
+.mesoTopbar .btn-sm-square{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media screen and (max-width : 1400px){
+  .teamCard{
+    width: 350px!important;
+  }
+  .testimonial-item img{
+    height: 75px!important;
+    width: 75px!important;
+  }
+  .testimonial p,.testimonial h4{
+    padding: 0!important;
+    margin: 0!important;
+  }
+  
+ .testimonial{
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+
+ }
+
+}
+
+@media screen and (max-width : 1024px){
+  .mesoLanding .img-fluid{
+    display: none;
+  }
+  .slick-slide{
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+  }
+  .teamCard{
+    width: 300px!important;
+  }
+
+
+
+}
+@media screen and (max-width : 990px){
+  .mesoNav{
+    
+    flex-direction: column!important;
+  }
+  .btn--xl {
+  
+    padding: 0.5rem 1rem;
+   
+  }
+  .teamContainer .owl-nav {
+    position: absolute;
+    top: 14%;
+    right: 40%;
+    display: flex;
+  }
+  .slick-slider{
+    margin-top: 20px;
+  } 
+}
+@media screen and (max-width:768px) {
+  .mesoTopbar{
+  display: none;}
+
+}
