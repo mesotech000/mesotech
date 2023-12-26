@@ -8,14 +8,14 @@ const Ratings = () => {
                 <Row className="d-flex flex-wrap">
                     <Col lg="3" className="wow fadeIn" data-wow-delay=".1s">
                         <div className="d-flex counter">
-                            <h1 className="me-3 text-primary counter-value">99</h1>
-                            <h5 className="text-white mt-1">Success in getting happy customer</h5>
+                            <h1 className="me-3 text-primary counter-value">33</h1>
+                            <h5 className="text-white mt-1">Happy customers</h5>
                         </div>
                     </Col>
                     <Col lg="3" className="wow fadeIn" data-wow-delay=".3s">
                         <div className="d-flex counter">
                             <h1 className="me-3 text-primary counter-value">25</h1>
-                            <h5 className="text-white mt-1">Thousands of successful business</h5>
+                            <h5 className="text-white mt-1">Unique Projects</h5>
                         </div>
                     </Col>
                     <Col lg="3" className="wow fadeIn" data-wow-delay=".5s">

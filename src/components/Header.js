@@ -10,7 +10,7 @@ function Header({aboutScroll,
       <div className="container">
         <Navbar dark expand="lg" className="py-0">
           <a href="index.html" className="navbar-brand">
-            <h1 className="text-white fw-bold d-block">Meso<span className="text-secondary mesoColour">Tech</span> </h1>
+            <h1 className="text-white fw-bold d-block">Messo<span className="text-secondary mesoColour">Tech</span> </h1>
           </a>
           <button type="button" className="navbar-toggler me-0 collapsed" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-expanded="false">
             <span className="navbar-toggler-icon"></span>
@@ -46,7 +46,7 @@ function Header({aboutScroll,
             </div>
             <div className="d-flex flex-column pe-4 border-end">
               <span className="text-white-50">Have any questions?</span>
-              <span className="text-secondary mesoColour">Call: + 0793521690</span>
+              <span className="text-secondary mesoColour">Call: +254 743600740</span>
             </div>
             <div className="d-flex align-items-center justify-content-center ms-4 ">
               <a href="#"><i className="bi bi-search text-white fa-2x"></i> </a>

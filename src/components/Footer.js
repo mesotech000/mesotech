@@ -13,9 +13,9 @@ const Footer = () => {
         <Row className="g-5">
           <Col lg="3" md="6">
             <a href="index.html">
-              <h1 className="text-white fw-bold d-block">Meso<span className="text-secondary">Tech</span> </h1>
+              <h1 className="text-white fw-bold d-block">Messo<span className="text-secondary">Tech</span> </h1>
             </a>
-            <p className="mt-4 text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere delectus qui placeat inventore consectetur repellendus optio debitis.</p>
+            <p className="mt-4 text-light">At MessoTech, we are not just a team of experts; we are architects of digital solutions, weaving together seamless web design, robust web development, captivating UI/UX experiences, cutting-edge web security, and precision programming.</p>
             <div className="d-flex hightech-link">
               <Button className="btn-light nav-fill btn btn-square rounded-circle me-2"><i className="fab fa-facebook-f text-primary"></i></Button>
               <Button className="btn-light nav-fill btn btn-square rounded-circle me-2"><i className="fab fa-twitter text-primary"></i></Button>
@@ -46,16 +46,16 @@ const Footer = () => {
           <Col lg="3" md="6">
             <a href="#" className="h3 text-secondary">Contact Us</a>
             <div className="text-white mt-4 d-flex flex-column contact-link">
-              <a href="#" className="pb-3 text-light border-bottom border-primary"><i className="fas fa-map-marker-alt text-secondary me-2"></i> 123 Street, New York, USA</a>
-              <a href="#" className="py-3 text-light border-bottom border-primary"><i className="fas fa-phone-alt text-secondary me-2"></i> +123 456 7890</a>
-              <a href="#" className="py-3 text-light border-bottom border-primary"><i className="fas fa-envelope text-secondary me-2"></i> info@exmple.con</a>
+              <a href="#" className="pb-3 text-light border-bottom border-primary"><i className="fas fa-map-marker-alt text-secondary me-2"></i> Daystar University, Athi river</a>
+              <a href="#" className="py-3 text-light border-bottom border-primary"><i className="fas fa-phone-alt text-secondary me-2"></i> +254 743600740</a>
+              <a href="#" className="py-3 text-light border-bottom border-primary"><i className="fas fa-envelope text-secondary me-2"></i> messotechke@gmail.com</a>
             </div>
           </Col>
         </Row>
         <hr className="text-light mt-5 mb-4" />
         <Row>
           <Col md="6" className="text-center text-md-start">
-            <span className="text-light"><a href="#" className="text-secondary"><i className="fas fa-copyright text-secondary me-2"></i>Mesotech</a>, All right reserved.</span>
+            <span className="text-light"><a href="#" className="text-secondary"><i className="fas fa-copyright text-secondary me-2"></i>Messotech</a>, All right reserved.</span>
           </Col>
           
         </Row>

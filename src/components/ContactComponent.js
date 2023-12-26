@@ -14,7 +14,7 @@ const ContactComponent = ({contactRef}) => {
                 </div>
                 <div className="ms-3">
                   <h4 className="text-primary">Address</h4>
-                  <a href="https://goo.gl/maps/Zd4BCynmTb98ivUJ6" target="_blank" className="h5">23 rank Str, NY</a>
+                  <a href="https://goo.gl/maps/Zd4BCynmTb98ivUJ6" target="_blank" className="h5">Daystar University , AThi River, Kenya</a>
                 </div>
               </div>
             </div>
@@ -25,7 +25,7 @@ const ContactComponent = ({contactRef}) => {
                 </div>
                 <div className="ms-3">
                   <h4 className="text-primary">Call Us</h4>
-                  <a className="h5" href="tel:+0123456789" target="_blank">+012 3456 7890</a>
+                  <a className="h5" href="tel:+0123456789" target="_blank">+254 743600740</a>
                 </div>
               </div>
             </div>

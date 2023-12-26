@@ -22,22 +22,22 @@ const Services = ({servicesRef}) => {
     {
       iconClass: 'fa fa-code fa-7x mb-4 text-primary',
       title: 'Web Design',
-      description: 'Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.',
+      description: 'Immerse your audience in visually stunning and intuitive designs. Our team of designers combines aesthetics with usability, ensuring your digital presence leaves a lasting impression.',
     },
     {
       iconClass: 'fa fa-file-code fa-7x mb-4 text-primary',
       title: 'Web Development',
-      description: 'Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.',
+      description: 'Behind every great design lies powerful development. We specialize in crafting websites and applications that not only look impressive but also function seamlessly. Your success is our code.',
     },
     {
       iconClass: 'fa fa-external-link-alt fa-7x mb-4 text-primary',
       title: 'UI/UX Design',
-      description: 'Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.',
+      description: 'User experiences are at the heart of what we do. We prioritize user-centric design, ensuring that every interaction with your digital platform is intuitive, enjoyable, and memorable.',
     },
     {
       iconClass: 'fas fa-user-secret fa-7x mb-4 text-primary mesoIcon',
       title: 'Web Security',
-      description: 'Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.',
+      description: 'In an era of digital threats, we prioritize your peace of mind. Our web security experts implement robust measures to safeguard your online assets, ensuring a fortress against potential vulnerabilities.',
     },
     {
       iconClass: 'fa fa-envelope-open fa-7x mb-4 text-primary',
@@ -47,7 +47,7 @@ const Services = ({servicesRef}) => {
     {
       iconClass: 'fas fa-laptop fa-7x mb-4 text-primary mesoIcon',
       title: 'Programming',
-      description: 'Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.',
+      description: 'Coding is an art, and we are masters of our craft. From scripting elegant solutions to optimizing performance, our programming expertise forms the backbone of your digital success.',
     },
   ];
 

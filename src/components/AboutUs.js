@@ -16,9 +16,9 @@ const AboutUs = ({ aboutRef }) => {
                     </Col>
                     <Col lg="7" md="6" sm="12" className="wow fadeIn mesoAbout" data-wow-delay=".5s">
                         <h5 className="text-primary">About Us</h5>
-                        <h1 className="mb-4">About MesoTech Agency And It's Innovative IT Solutions</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt. Nam volutpat libero sit amet leo cursus, ac viverra eros tristique. Morbi quis quam mi. Cras vel gravida eros. Proin scelerisque quam nec elementum viverra. Suspendisse viverra hendrerit diam in tempus. Etiam gravida justo nec erat vestibulum, et malesuada augue laoreet.</p>
-                        <p className="mb-4">Pellentesque aliquam dolor eget urna ultricies tincidunt. Nam volutpat libero sit amet leo cursus, ac viverra eros tristique. Morbi quis quam mi. Cras vel gravida eros. Proin scelerisque quam nec elementum viverra. Suspendisse viverra hendrerit diam in tempus.</p>
+                        <h1 className="mb-4">About MessoTech Agency And It's Innovative IT Solutions</h1>
+                        <p>Welcome to MessoTech, where innovation, creativity, and security converge to redefine your digital experience.</p>
+                        <p className="mb-4">At MessoTech, we are not just a team of experts; we are architects of digital solutions, weaving together seamless web design, robust web development, captivating UI/UX experiences, cutting-edge web security, and precision programming.</p>
                         <Button color="secondary" className="rounded-pill px-5 py-3 text-white mesoButton">More Details</Button>
                     </Col>
                 </Row>
